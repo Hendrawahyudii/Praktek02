@@ -9,6 +9,12 @@ public class RectangleAksi {
         r1.cetakInfo();
         System.out.println("Total Rectangle ="+r1.hitungTotal());
         r1.cetakTotal();
+        
+        Rectangle r2 = new Rectangle();
+        r2.cetakInfo();
+        
+        Rectangle r3 = new Rectangle(70000,2);
+        r3.cetakInfo();
     }
     
 }

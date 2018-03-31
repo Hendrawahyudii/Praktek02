@@ -8,6 +8,11 @@ public class Rectangle {
         Harga_bebek=40000;
         Jumlah_beli=2;
     }
+
+    public Rectangle(Integer Harga_bebek, Integer Jumlah_beli) {
+        this.Harga_bebek = Harga_bebek;
+        this.Jumlah_beli = Jumlah_beli;
+    }
     
     void cetakInfo(){
         System.out.println("============================");
