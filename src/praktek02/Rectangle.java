@@ -15,5 +15,8 @@ public class Rectangle {
         Total = Harga_bebek*Jumlah_beli;
         return Total;
     }
+    void cetakTotal(){
+        System.out.println("Totalnya adalah: "+hitungTotal());
+    }
     
 }

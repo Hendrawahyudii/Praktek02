@@ -8,6 +8,7 @@ public class RectangleAksi {
         
         r1.cetakInfo();
         System.out.println("Total Rectangle ="+r1.hitungTotal());
+        r1.cetakTotal();
     }
     
 }
