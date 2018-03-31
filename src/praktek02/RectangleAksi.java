@@ -5,6 +5,8 @@ public class RectangleAksi {
         Rectangle r1 = new Rectangle();
         r1.Harga_bebek = 35000;
         r1.Jumlah_beli = 5;
+        
+        r1.cetakInfo();
     }
     
 }
