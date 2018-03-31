@@ -7,6 +7,7 @@ public class RectangleAksi {
         r1.Jumlah_beli = 5;
         
         r1.cetakInfo();
+        System.out.println("Total Rectangle ="+r1.hitungTotal());
     }
     
 }

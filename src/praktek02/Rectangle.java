@@ -10,5 +10,10 @@ public class Rectangle {
         System.out.println("Jumlah Beli :"+Jumlah_beli);
         System.out.println("============================");
     }
+    Integer hitungTotal(){
+        Integer Total;
+        Total = Harga_bebek*Jumlah_beli;
+        return Total;
+    }
     
 }
